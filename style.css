@@ -19,6 +19,10 @@ body {
    margin-bottom: 6rem;
 }
 /*-----------------RESPONSIVO----------------------------*/
+@media (max-width: 600px) {
+
+}
+
 .header-menu {
    font-size: 18px;
    display: flex;
@@ -152,7 +156,7 @@ h1 {
 .cards-content {
    width: 292px;
    border-radius: 5px;
-   background-color: #00000098;
+   background-color: rgba(0, 0, 0, 0.5);
    margin: 25px;
    transition: transform 0.4s ease, box-shadow 0.3s ease;
 }
@@ -243,35 +247,55 @@ h1 {
    font-size: 23px;
    color: #F5F5F5;
    font-weight: 500;
-   margin-bottom: 55px;
+   margin-bottom: 80px;
    text-align: center;
 }
 
-.linguagens {
-   display: flex;
-   margin: 0 auto;
+.content-techs {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
    justify-content: center;
-   gap: 35px;
-   width: 600px;
-   height: 100px;
-   background: rgba(0, 0, 0, 0.3);
+   align-content: center;
+   margin: 0 auto;
+   width: 900px;
+   gap: 45px;
+}
+
+.section-techs {
+   background-color: rgba(0, 0, 0, 0.2) ;
+   border: solid 1px rgba(255, 255, 255, 0.3);
    border-radius: 6px;
-   margin-bottom: 120px;
 }
 
-.linguagens li {
+.section-techs h2 {
+   font-size: 16px;
+   font-weight: 400;
+   text-align: center;
+   color: #FFFFFF;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   padding: 15px;
+}
+
+.logo-linguagens {
    display: flex;
-   color: #F5F5F5;
+   justify-content: center;
+   gap: 16px;
+   align-content: center;
+   margin-bottom: 30px;
 }
 
-.linguagens img {
+.content-techs img {
    width: 45px;
-   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.linguagens img:hover {
+
+.logo-linguagens img {
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.logo-linguagens img:hover {
    transform: scale(1.3); /* Aumenta o botão em 10% */
 }
-
 /*-------------------------------CONTATO------------------------------------------------------------------------------------------------*/
 .contact-container {
    text-align: center;
