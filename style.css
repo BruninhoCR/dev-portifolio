@@ -265,6 +265,7 @@ h1 {
    background-color: rgba(0, 0, 0, 0.2) ;
    border: solid 1px rgba(255, 255, 255, 0.3);
    border-radius: 6px;
+   margin-bottom: 100px;
 }
 
 .section-techs h2 {
@@ -273,7 +274,7 @@ h1 {
    text-align: center;
    color: #FFFFFF;
    margin-top: 30px;
-   margin-bottom: 30px;
+   margin-bottom: 5px;
    padding: 15px;
 }
 
@@ -335,6 +336,7 @@ h1 {
    color: #ffffff;
    background: rgba(158, 158, 158, 0.3);
    border: none;
+
 }
 
 .contact-form input::placeholder {
@@ -348,7 +350,7 @@ form button {
    border-radius: 8px;
    color: rgb(255, 255, 255, 0.7);
    background: rgb(82, 82, 82);
-   font-size: 18px;
+   font-size: 16px;
    text-decoration: none;
    border: none;
    transition: transform 0.3s ease, box-shadow 0.3s ease;
