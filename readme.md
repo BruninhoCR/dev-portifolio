@@ -4,7 +4,7 @@
 
 ![Resultado final do projeto](img/projeto-img.png)
 
-<h4 align="center"><a href="https://www.iuricode.com/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://bruninhocr.github.io/dev-portifolio/">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
